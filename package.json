@@ -1,0 +1,40 @@
+{
+  "name": "ssr-store",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build:client": "cross-env NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build",
+    "build:server": "cross-env NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build --no-clean --server",
+    "build": "npm run build:client && npm run build:server",
+    "devbuild:client": "cross-env NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build --mode development",
+    "devbuild:server": "cross-env NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build --no-clean --server --mode development",
+    "devbuild": "npm run devbuild:client && npm run devbuild:server",
+    "watch:client": "cross-env NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build --watch",
+    "watch:server": "cross-env NODE_OPTIONS='--openssl-legacy-provider' vue-cli-service build --no-clean --server --watch",
+    "server": "node server.js",
+    "dev": "concurrently \"npm run watch:client \" \"npm run watch:server \" \"npm run server \""
+  },
+  "dependencies": {
+    "@vue/server-renderer": "^3.2.26",
+    "axios": "^0.24.0",
+    "compression": "^1.7.4",
+    "concurrently": "^7.0.0",
+    "core-js": "^3.6.5",
+    "express": "^4.17.2",
+    "lru-cache": "^6.0.0",
+    "vue": "^3.0.0",
+    "vue-router": "^4.0.0-0",
+    "vuex": "^4.0.0-0",
+    "webpack-node-externals": "^3.0.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-pwa": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "bulma-toast": "^2.4.1"
+  }
+}

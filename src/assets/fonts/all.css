@@ -1,0 +1,120 @@
+@font-face {
+    font-family: 'AcromRegular';
+    src: local('AcromRegular'), url('acrom/acromregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AcromMedium';
+    src: local('AcromMedium'), url('acrom/acrommedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AcromBold';
+    src: local('AcromBold'), url('acrom/acrombold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MontserratRegular';
+    src: local('MontserratRegular'),
+        url('montserrat/Montserrat-Regular.eot?#iefix') format('embedded-opentype'),
+        url('montserrat/Montserrat-Regular.woff2') format('woff2'),
+        url('montserrat/Montserrat-Regular.woff') format('woff'),
+        url('montserrat/Montserrat-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MontserratMedium';
+    src: local('MontserratMedium'),
+        url('montserrat/Montserrat-Medium.eot?#iefix') format('embedded-opentype'),
+        url('montserrat/Montserrat-Medium.woff2') format('woff2'),
+        url('montserrat/Montserrat-Medium.woff') format('woff'),
+        url('montserrat/Montserrat-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MontserratBold';
+    src: local('MontserratBold'),
+        url('montserrat/Montserrat-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('montserrat/Montserrat-SemiBold.woff2') format('woff2'),
+        url('montserrat/Montserrat-SemiBold.woff') format('woff'),
+        url('montserrat/Montserrat-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoRegular';
+    src: local('Roboto'), local('RobotoRegular'), url("roboto/roboto.eot?#iefix") format("embedded-opentype"), url('roboto/roboto.woff') format('woff'), url('roboto/roboto.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoMedium';
+    src: local('Roboto Medium'), local('RobotoMedium'), url("roboto/robotomedium.eot?#iefix") format("embedded-opentype"), url('roboto/robotomedium.woff') format('woff'), url('roboto/robotomedium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'RobotoBold';
+    src: local('Roboto Bold'), local('RobotoBold'),  url("roboto/robotobold.eot?#iefix") format("embedded-opentype"),url('roboto/robotobold.woff') format('woff'), url('roboto/robotobold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Pacifico';
+    src: local('Pacifico'), url('pacifico/Pacifico.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansLight';
+    src: local('OpenSansLight'),
+        url('opensans/OpenSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansRegular';
+    src: local('OpenSansRegular'),
+        url('opensans/OpenSans-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'OpenSansBold';
+    src: local('OpenSansBold'),
+        url('opensans/OpenSans-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AmaticRegular';
+    src: local('AmaticRegular'),
+        url('amatic/Amatic-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'AmaticBold';
+    src: local('AmaticBold'),
+        url('amatic/Amatic-Bold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ComicRegular';
+    src: local('AmaticRegular'),
+        url('comic/comicregular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'ComicBold';
+    src: local('AmaticBold'), url('comic/comicbold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
